@@ -1,0 +1,74 @@
+/* Đặt các kiểu chung */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c19a6b; /* Camel - nền nhẹ nhàng */
+  margin: 0;
+  padding: 20px;
+  justify-content: center;
+}
+/* Đặt kiểu cho tiêu đề chính */
+h1 {
+  text-align: center;
+  color: #5c4033; /* nâu gỗ đậm */
+
+  margin-bottom: 30px;
+}
+
+/* Căn chỉnh form thêm sản phẩm */
+div {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #946e4a; /* nâu nhạt */
+
+  border-radius: 6px;
+  width: 200px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #aa845a; /* café au lait */
+
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #964b00; /* nâu đậm */
+}
+/* Đặt kiểu cho bảng */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #964b00; /* nâu đậm */
+}
+tr:nth-child(even) {
+  background-color: #f5deb3;
+}
+tr:hover {
+  background-color: #c19a6b; /* camel */
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
